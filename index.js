@@ -20,10 +20,10 @@ app.get('/', (req, res) => {
 
 // connect to db server
 let dbCon = mysql.createConnection({
-    host: 'localhost',
-    user: 'sirasaks_db',
-    password: '123456',
-    database: 'sirasaks_db'
+    host: 'dpg-ce341s1a6gdpj368q5p0-a',
+    user: 'api_db',
+    password: 'sOdozrfEqSFX9ot6r7A7zWrClyf6vqIT',
+    database: 'api_db_tf7o'
 })
 dbCon.connect();
 
